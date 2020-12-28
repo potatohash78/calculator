@@ -1,0 +1,57 @@
+.background {
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 400px;
+    margin: 60px auto;
+    background-color: black;
+    border: 3px solid grey;
+}
+.calculation {
+    width: 100%;
+    height: 75px;
+    text-align: end;
+    line-height: 75px;
+    color: white;
+    font-size: 40px;
+    font-family: monospace;
+    padding: 10px;
+}
+
+.standard {
+    text-align: center;
+    height: 91px;
+    font-size: 40px;
+    margin-top: 0.5%;
+    width: 24.625%;
+    border: none;
+}
+
+.standard:hover {
+    filter: brightness(120%);
+}
+
+.standard:active {
+    filter: brightness(80%);
+}
+
+.clear {
+    width: 49.75%;
+}
+
+
+
+.zero {
+    width: 74.875%;
+}
+
+.command {
+    background-color: #df974c;
+    color: white;
+}
+
+.enter {
+    background-color: #df974c;
+    color: white;
+}
